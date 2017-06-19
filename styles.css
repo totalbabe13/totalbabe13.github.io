@@ -1,5 +1,26 @@
-body {background: yellow;}
+body {
+	background: #99ffcc;
+	
+}
 
 .test {
 	color: red;
+}
+
+.welcome{
+	border: solid red 2px;
+	background-image: url(forest_background.jpg);
+	padding-top: 5px;
+	padding-bottom:5px; 
+	display: inline-block;
+	width: 50%
+	margin: auto;
+}
+
+.content{
+	border: solid red 1px;
+	
+	display: inline-block;
+	width: 50%
+	margin: auto;
 }
