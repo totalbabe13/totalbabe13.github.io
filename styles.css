@@ -3,24 +3,51 @@ body {
 	
 }
 
-.test {
-	color: red;
+
 }
 
 .welcome{
-	border: solid red 2px;
+	text-decoration: underline;
+	order: solid red 2px;
 	background-image: url(forest_background.jpg);
 	padding-top: 5px;
 	padding-bottom:5px; 
 	display: inline-block;
 	width: 50%
 	margin: auto;
+
 }
 
 .content{
 	border: solid red 1px;
-	
+
+
+	font: italic bold 12px/30px Georgia, serif;
 	display: inline-block;
 	width: 50%
 	margin: auto;
 }
+
+#footer{
+	text-align: center;
+}
+a.next {
+	color: red;
+}	
+
+a.next:visited {
+	color: grey;
+
+}
+
+img {
+	width: 50%;
+}
+
+@media screen and (max-width: 959px) {
+    .content: {
+        width: 100%;
+    }
+}
+
+
